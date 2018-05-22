@@ -1,0 +1,144 @@
+@charset "utf-8";
+* { box-sizing: border-box; }
+@import url(../Img/Real_Air_Force.png);
+@import url(../Img/Background.png);
+@import url(../Img/raptorprototype.jpg);
+header > h1 {
+	font-family: Courier;
+	text-align: center;
+	color: white;
+	border: solid #AFE6F9;
+}
+header {
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.bodybox {
+	font-family: Courier;
+	text-align: center;
+	color: white;
+	border: solid #C3FAFF;
+	text-transform: uppercase;
+}
+content > p {
+	font-family: Courier New;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	text-transform: Uppercase;
+	
+}
+body {
+	background-color: cornflowerblue;
+}
+body > .bodyback {
+	background-image: url(../Img/Background2.png);
+	background-size: 1500px;
+}
+ul {
+  background-color: skyblue;
+  padding: 0;
+}
+
+a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > ul {
+  background-color: rgb(121, 185, 211);
+  list-style: none;
+  padding: 0;
+  position: absolute;
+}
+nav > ul > li:hover {
+  background-color: rgb(121, 185, 211);
+}
+nav > ul > li > ul > li:hover {
+  background-color: rgb(185, 211, 121);
+}
+nav > ul > li > ul {
+  display: none
+}
+nav > ul > li:hover > ul {
+  display: block;
+}
+
+
+.loginForm {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: Courier;
+	padding-top: 25px;
+}
+
+.animation {
+	text-align: center;
+}
+
+.contentbox {
+	border: solid #C3FAFF;
+	font-family: Courier;
+	text-align: center;
+	color: blue;
+}
+
+.quiztextbox {
+	border: solid #C3FAFF;
+	font-family: Courier;
+	color: white;
+	padding-left: 20px;
+	text-transform: uppercase;
+}
+
+.slider {
+	border: solid #C3FAFF;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    padding: 10px;
+}
+
+.indexgallery {
+	border: solid #C3FAFF;
+	max-width: 1000px;
+    margin: auto;
+}
+
+.imageborder {
+	border-radius: 3%;
+}

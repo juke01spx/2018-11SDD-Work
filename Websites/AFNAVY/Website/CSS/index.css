@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	align-content: center;
+	text-align: center;
+	color: red;
+}
+body {
+	background-color: deepskyblue;
+}
+nav {
+	
+}
+ul {
+  background-color: lightseagreen;
+  padding: 0;
+}
+ul > li > a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > ul {
+  background-color: seagreen;
+  list-style: none;
+  padding: 0;
+  position: absolute;
+}
+nav > ul > li:hover {
+  background-color: seagreen;
+}
+nav > ul > li > ul > li:hover {
+  background-color: darkseagreen;
+}
+nav > ul > li > ul {
+  display: none;
+}
+nav > ul > li:hover > ul {
+  display: block;
+}
