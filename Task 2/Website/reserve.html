@@ -8,6 +8,7 @@
 <link rel="shortcut icon" href="Img/favicon.ico">
 <link href="CSS/seating.css" rel="stylesheet" type="text/css">
 <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/seating.js"></script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -39,7 +40,7 @@
 		
 	<!-- <li><a href="login.html">Login </a></li> -->
 		
-	<a href="index.html"><img src="img/SPXC.PNG" alt="Home" style="width: 8%; position: absolute; right: 632px; margin-top: -10px; "></a>
+	<a href="index.html"><img src="img/SPXC.PNG" alt="Home" style="width: 8%; position: absolute; right: 616px; margin-top: -10px; "></a>
 		
 	<a href="login.html"><img src="img/login.PNG" alt="Login" style="width: 8%; position: absolute; right: 67px; margin-top: -10px;"></a>
 		
@@ -47,329 +48,563 @@
 
 	</nav>	
 
-<hr style="border-color: #c2091a;">
-<!-- Insert Booking Here. Try grid row with column? -->
-
-<div class="row">
-  <div class="col-lg-6">
-    <div class="input-group"><span class="input-group-addon">
-      <input type="checkbox">
-      </span>
-      <input type="text" class="form-control" placeholder="placeholder text">
-    </div>
-    <!-- /input-group -->
-  </div>
-  <!-- /.col-lg-6 -->
-  <div class="col-lg-6">
-    <div class="input-group"><span class="input-group-addon">
-      <input type="radio">
-      </span>
-      <input type="text" class="form-control" placeholder="placeholder text">
-    </div>
-    <!-- /input-group -->
-  </div>
-  <!-- /.col-lg-6 -->
+<hr style="border-color: #c2091a; margin-bottom: -150px;">
+<!-- Booking Tickets -->
+<!-- Cinema Screen -->
+<div class="screen">
+<img src="img/cinemascreen.png" alt="Cinema Screen" style="width: 40%; position: absolute; margin-left: 416px; margin-top: 250px;">
 </div>
 
-<!-- <div class="seating">
-  <div class="screen">
-    <h1>Cinema Screen</h1>
-  </div>
-  <div class="exits">
-    
-  </div>
-  <ol class="cabin fuselage">
-    <li class="row row--1">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="1A" />
-          <label for="1A">1A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="1B" />
-          <label for="1B">1B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="1C" />
-          <label for="1C">1C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" disabled id="1D" />
-          <label for="1D">Occupied</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="1E" />
-          <label for="1E">1E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="1F" />
-          <label for="1F">1F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--2">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="2A" />
-          <label for="2A">2A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="2B" />
-          <label for="2B">2B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="2C" />
-          <label for="2C">2C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="2D" />
-          <label for="2D">2D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="2E" />
-          <label for="2E">2E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="2F" />
-          <label for="2F">2F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--3">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="3A" />
-          <label for="3A">3A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="3B" />
-          <label for="3B">3B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="3C" />
-          <label for="3C">3C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="3D" />
-          <label for="3D">3D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="3E" />
-          <label for="3E">3E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="3F" />
-          <label for="3F">3F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--4">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="4A" />
-          <label for="4A">4A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="4B" />
-          <label for="4B">4B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="4C" />
-          <label for="4C">4C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="4D" />
-          <label for="4D">4D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="4E" />
-          <label for="4E">4E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="4F" />
-          <label for="4F">4F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--5">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="5A" />
-          <label for="5A">5A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="5B" />
-          <label for="5B">5B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="5C" />
-          <label for="5C">5C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="5D" />
-          <label for="5D">5D</label>
+<!-- Start A Row -->
+<div class="arow">
 
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="5E" />
-          <label for="5E">5E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="5F" />
-          <label for="5F">5F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--6">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="6A" />
-          <label for="6A">6A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="6B" />
-          <label for="6B">6B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="6C" />
-          <label for="6C">6C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="6D" />
-          <label for="6D">6D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="6E" />
-          <label for="6E">6E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="6F" />
-          <label for="6F">6F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--7">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="7A" />
-          <label for="7A">7A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="7B" />
-          <label for="7B">7B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="7C" />
-          <label for="7C">7C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="7D" />
-          <label for="7D">7D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="7E" />
-          <label for="7E">7E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="7F" />
-          <label for="7F">7F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--8">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="8A" />
-          <label for="8A">8A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="8B" />
-          <label for="8B">8B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="8C" />
-          <label for="8C">8C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="8D" />
-          <label for="8D">8D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="8E" />
-          <label for="8E">8E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="8F" />
-          <label for="8F">8F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--9">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="9A" />
-          <label for="9A">9A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="9B" />
-          <label for="9B">9B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="9C" />
-          <label for="9C">9C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="9D" />
-          <label for="9D">9D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="9E" />
-          <label for="9E">9E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="9F" />
-          <label for="9F">9F</label>
-        </li>
-      </ol>
-    </li>
-    <li class="row row--10">
-      <ol class="seats" type="A">
-        <li class="seat">
-          <input type="checkbox" id="10A" />
-          <label for="10A">10A</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="10B" />
-          <label for="10B">10B</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="10C" />
-          <label for="10C">10C</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="10D" />
-          <label for="10D">10D</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="10E" />
-          <label for="10E">10E</label>
-        </li>
-        <li class="seat">
-          <input type="checkbox" id="10F" />
-          <label for="10F">10F</label>
-        </li>
-      </ol>
-    </li>
-  </ol>
-  <div class="exit exit--back fuselage">
-    
-  </div>
+<div class="a1" id="a1" onClick="a1click()">
+<div class ="a1text">
+A1
 </div>
--->
+</div>
+
+<div class="a2" id="a2" onClick="a2click()">
+<div class ="a2text">
+A2
+</div>
+</div>
+	
+<div class="a3" id="a3" onClick="a3click()">
+<div class ="a3text">
+A3
+</div>
+</div>
+	
+<div class="a4" id="a4" onClick="a4click()">
+<div class ="a4text">
+A4
+</div>
+</div>
+	
+<div class="a5" id="a5" onClick="a5click()">
+<div class ="a5text">
+A5
+</div>
+</div>
+	
+<div class="a6" id="a6" onClick="a6click()">
+<div class ="a6text">
+A6
+</div>
+</div>
+	
+<div class="a7" id="a7" onClick="a7click()">
+<div class ="a7text">
+A7
+</div>
+</div>
+	
+<div class="a8" id="a8" onClick="a8click()">
+<div class ="a8text">
+A8
+</div>
+</div>
+	
+<div class="a9" id="a9" onClick="a9click()">
+<div class ="a9text">
+A9
+</div>
+</div>
+	
+<div class="a10" id="a10" onClick="a10click()">
+<div class ="a10text">
+A10
+</div>
+</div>
+	
+<div class="a11" id="a11" onClick="a11click()">
+<div class ="a11text">
+A11
+</div>
+</div>
+	
+</div>
+
+<!-- Start B Row -->
+<div class="brow">
+	
+<div class="b1" id="b1" onClick="b1click()">
+<div class ="b1text">
+B1
+</div>
+</div>
+
+<div class="b2" id="b2" onClick="b2click()">
+<div class ="b2text">
+B2
+</div>
+</div>
+	
+<div class="b3" id="b3" onClick="b3click()">
+<div class ="b3text">
+B3
+</div>
+</div>
+	
+<div class="b4" id="b4" onClick="b4click()">
+<div class ="b4text">
+B4
+</div>
+</div>
+	
+<div class="b5" id="b5" onClick="b5click()">
+<div class ="b5text">
+B5
+</div>
+</div>
+	
+<div class="b6" id="b6" onClick="b6click()">
+<div class ="b6text">
+B6
+</div>
+</div>
+	
+<div class="b7" id="b7" onClick="b7click()">
+<div class ="b7text">
+B7
+</div>
+</div>
+	
+<div class="b8" id="b8" onClick="b8click()">
+<div class ="b8text">
+B8
+</div>
+</div>
+	
+<div class="b9" id="b9" onClick="b9click()">
+<div class ="b9text">
+B9
+</div>
+</div>
+	
+<div class="b10" id="b10" onClick="b10click()">
+<div class ="b10text">
+B10
+</div>
+</div>
+	
+<div class="b11" id="b11" onClick="b11click()">
+<div class ="b11text">
+B11
+</div>
+</div>
+
+</div>
+
+<!-- Start C Row -->
+<div class="crow">
+
+<div class="c1" id="c1" onClick="c1click()">
+<div class ="c1text">
+C1
+</div>
+</div>
+
+<div class="c2" id="c2" onClick="c2click()">
+<div class ="c2text">
+C2
+</div>
+</div>
+	
+<div class="c3" id="c3" onClick="c3click()">
+<div class ="c3text">
+C3
+</div>
+</div>
+	
+<div class="c4" id="c4" onClick="c4click()">
+<div class ="c4text">
+C4
+</div>
+</div>
+	
+<div class="c5" id="c5" onClick="c5click()">
+<div class ="c5text">
+C5
+</div>
+</div>
+	
+<div class="c6" id="c6" onClick="c6click()">
+<div class ="c6text">
+C6
+</div>
+</div>
+	
+<div class="c7" id="c7" onClick="c7click()">
+<div class ="c7text">
+C7
+</div>
+</div>
+	
+<div class="c8" id="c8" onClick="c8click()">
+<div class ="c8text">
+C8
+</div>
+</div>
+	
+<div class="c9" id="c9" onClick="c9click()">
+<div class ="c9text">
+C9
+</div>
+</div>
+	
+<div class="c10" id="c10" onClick="c10click()">
+<div class ="c10text">
+C10
+</div>
+</div>
+	
+<div class="c11" id="c11" onClick="c11click()">
+<div class ="c11text">
+C11
+</div>
+</div>
+	
+<div class="c12" id="c12" onClick="c12click()">
+<div class ="c12text">
+C12
+</div>
+</div>
+	
+<div class="c13" id="c13" onClick="c13click()">
+<div class ="c13text">
+C13
+</div>
+</div>
+	
+<div class="c14" id="c14" onClick="c14click()">
+<div class ="c14text">
+C14
+</div>
+</div>
+	
+<div class="c15" id="c15" onClick="c15click()">
+<div class ="c15text">
+C15
+</div>
+</div>
+
+</div>
+	
+<!-- Start D Row -->
+<div class="drow">
+	
+<div class="d1" id="d1" onClick="d1click()">
+<div class ="d1text">
+D1
+</div>
+</div>
+
+<div class="d2" id="d2" onClick="d2click()">
+<div class ="d2text">
+D2
+</div>
+</div>
+	
+<div class="d3" id="d3" onClick="d3click()">
+<div class ="d3text">
+D3
+</div>
+</div>
+	
+<div class="d4" id="d4" onClick="d4click()">
+<div class ="d4text">
+D4
+</div>
+</div>
+	
+<div class="d5" id="d5" onClick="d5click()">
+<div class ="d5text">
+D5
+</div>
+</div>
+	
+<div class="d6" id="d6" onClick="d6click()">
+<div class ="d6text">
+D6
+</div>
+</div>
+	
+<div class="d7" id="d7" onClick="d7click()">
+<div class ="d7text">
+D7
+</div>
+</div>
+	
+<div class="d8" id="d8" onClick="d8click()">
+<div class ="d8text">
+D8
+</div>
+</div>
+	
+<div class="d9" id="d9" onClick="d9click()">
+<div class ="d9text">
+D9
+</div>
+</div>
+	
+<div class="d10" id="d10" onClick="d10click()">
+<div class ="d10text">
+D10
+</div>
+</div>
+	
+<div class="d11" id="d11" onClick="d11click()">
+<div class ="d11text">
+D11
+</div>
+</div>
+	
+<div class="d12" id="d12" onClick="d12click()">
+<div class ="d12text">
+D12
+</div>
+</div>
+	
+<div class="d13" id="d13" onClick="d13click()">
+<div class ="d13text">
+D13
+</div>
+</div>
+	
+<div class="d14" id="d14" onClick="d14click()">
+<div class ="d14text">
+D14
+</div>
+</div>
+	
+<div class="d15" id="d15" onClick="d15click()">
+<div class ="d15text">
+D15
+</div>
+</div>
+
+</div>
+
+<!-- Start E Row -->
+<div class="erow">
+	
+<div class="e1" id="e1" onClick="e1click()">
+<div class ="e1text">
+E1
+</div>
+</div>
+
+<div class="e2" id="e2" onClick="e2click()">
+<div class ="e2text">
+E2
+</div>
+</div>
+	
+<div class="e3" id="e3" onClick="e3click()">
+<div class ="e3text">
+E3
+</div>
+</div>
+	
+<div class="e4" id="e4" onClick="e4click()">
+<div class ="e4text">
+E4
+</div>
+</div>
+	
+<div class="e5" id="e5" onClick="e5click()">
+<div class ="e5text">
+E5
+</div>
+</div>
+	
+<div class="e6" id="e6" onClick="e6click()">
+<div class ="e6text">
+E6
+</div>
+</div>
+	
+<div class="e7" id="e7" onClick="e7click()">
+<div class ="e7text">
+E7
+</div>
+</div>
+	
+<div class="e8" id="e8" onClick="e8click()">
+<div class ="e8text">
+E8
+</div>
+</div>
+	
+<div class="e9" id="e9" onClick="e9click()">
+<div class ="e9text">
+E9
+</div>
+</div>
+	
+<div class="e10" id="e10" onClick="e10click()">
+<div class ="e10text">
+E10
+</div>
+</div>
+	
+<div class="e11" id="e11" onClick="e11click()">
+<div class ="e11text">
+E11
+</div>
+</div>
+	
+<div class="e12" id="e12" onClick="e12click()">
+<div class ="e12text">
+E12
+</div>
+</div>
+	
+<div class="e13" id="e13" onClick="e13click()">
+<div class ="e13text">
+E13
+</div>
+</div>
+	
+<div class="e14" id="e14" onClick="e14click()">
+<div class ="e14text">
+E14
+</div>
+</div>
+	
+<div class="e15" id="e15" onClick="e15click()">
+<div class ="e15text">
+E15
+</div>
+</div>	
+	
+</div>
+
+<!-- Start F Row -->
+<div class="frow">
+	
+<div class="f1" id="f1" onClick="f1click()">
+<div class ="f1text">
+F1
+</div>
+</div>
+
+<div class="f2" id="f2" onClick="f2click()">
+<div class ="f2text">
+F2
+</div>
+</div>
+	
+<div class="f3" id="f3" onClick="f3click()">
+<div class ="f3text">
+F3
+</div>
+</div>
+	
+<div class="f4" id="f4" onClick="f4click()">
+<div class ="f4text">
+F4
+</div>
+</div>
+	
+<div class="f5" id="f5" onClick="f5click()">
+<div class ="f5text">
+F5
+</div>
+</div>
+	
+<div class="f6" id="f6" onClick="f6click()">
+<div class ="f6text">
+F6
+</div>
+</div>
+	
+<div class="f7" id="f7" onClick="f7click()">
+<div class ="f7text">
+F7
+</div>
+</div>
+	
+<div class="f8" id="f8" onClick="f8click()">
+<div class ="f8text">
+F8
+</div>
+</div>
+	
+<div class="f9" id="f9" onClick="f9click()">
+<div class ="f9text">
+F9
+</div>
+</div>
+	
+<div class="f10" id="f10" onClick="f10click()">
+<div class ="f10text">
+F10
+</div>
+</div>
+	
+<div class="f11" id="f11" onClick="f11click()">
+<div class ="f11text">
+F11
+</div>
+</div>
+	
+<div class="f12" id="f12" onClick="f12click()">
+<div class ="f12text">
+F12
+</div>
+</div>
+	
+<div class="f13" id="f13" onClick="f13click()">
+<div class ="f13text">
+F13
+</div>
+</div>
+	
+<div class="f14" id="f14" onClick="f14click()">
+<div class ="f14text">
+F14
+</div>
+</div>
+	
+<div class="f15" id="f15" onClick="f15click()">
+<div class ="f15text">
+F15
+</div>
+</div>
+	
+<div class="f16" id="f16" onClick="f16click()">
+<div class ="f16text">
+F16
+</div>
+</div>	
+	
+<div class="f17" id="f17" onClick="f17click()">
+<div class ="f17text">
+F17
+</div>
+</div>	
+	
+<div class="f18" id="f18" onClick="f18click()">
+<div class ="f18text">
+F18
+</div>
+</div>	
+	
+<div class="f19" id="f19" onClick="f19click()">
+<div class ="f19text">
+F19
+</div>
+</div>	
+	
+</div>
+	
 <content>
   
   
-  <br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 <div class="bottomnav">
 
 <nav>
