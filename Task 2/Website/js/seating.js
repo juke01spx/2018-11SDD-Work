@@ -117,7 +117,7 @@ function c4click() {
 }
 
 function c5click() {
-	document.getElementById("c5").style.background = "red";
+	document.getElementById("c5").style.background = "#ff7f7f";
 }
 
 function c6click() {
@@ -137,11 +137,11 @@ function c9click() {
 }
 
 function c10click() {
-	document.getElementById("c10").style.background = "red";
+	document.getElementById("c10").style.background = "#ff7f7f";
 }
 
 function c11click() {
-	document.getElementById("c11").style.background = "red";
+	document.getElementById("c11").style.background = "#ff7f7f";
 }
 
 function c12click() {

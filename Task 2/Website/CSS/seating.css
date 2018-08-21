@@ -888,6 +888,10 @@ nav > ul > li:hover > ul {
 	opacity: 1;
 }
 
+.c5:hover > .wheelchair {
+	opacity: 0;
+}
+
 .c6 {
     -webkit-transition: all .6s ease;
     border-radius: 5px;
@@ -1013,6 +1017,10 @@ nav > ul > li:hover > ul {
 	opacity: 1;
 }
 
+.c10:hover > .wheelchair {
+	opacity: 0;
+}
+
 .c11 {
     -webkit-transition: all .6s ease;
     border-radius: 5px;
@@ -1036,6 +1044,10 @@ nav > ul > li:hover > ul {
 
 .c11:hover > .c11text {
 	opacity: 1;
+}
+
+.c11:hover > .wheelchair {
+	opacity: 0;
 }
 
 .c12 {
@@ -2405,4 +2417,14 @@ nav > ul > li:hover > ul {
 	transform: scale(0.3,0.3);
 	margin-top: 356px;
 	margin-left: 378px;
+}
+
+
+.wheelchair {
+	transition: all .6s ease;
+	opacity: 1;
+	position: absolute;
+	transform: scale(0.175,0.175);
+	top: -74px;
+	left: -55px;
 }
