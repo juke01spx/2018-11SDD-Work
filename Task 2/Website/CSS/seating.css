@@ -2386,3 +2386,23 @@ nav > ul > li:hover > ul {
 	margin-left: 76px;
 }
 
+.exit1 {
+	position: absolute;
+	margin-top: 304px;
+	margin-left: 144px;
+	transform: scale(0.3,0.3);
+}
+
+.exit2 {
+	position: absolute;
+	margin-top: 304px;
+	margin-left: 1021px;
+	transform: scale(0.3,0.3);
+}
+
+.resetselect {
+	position: absolute;
+	transform: scale(0.3,0.3);
+	margin-top: 356px;
+	margin-left: 378px;
+}
