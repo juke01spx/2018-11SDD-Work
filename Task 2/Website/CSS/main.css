@@ -91,6 +91,22 @@ nav > ul > li:hover > ul {
 	margin-top: 10px;
 }
 
+.selectyourmovie {
+	border: solid #c2091a;
+	color: white;
+	background-color: #c2091a;
+	text-align: center;
+	text-transform: uppercase;
+	
+	margin-top: -20px;
+	margin-left: 596px;
+	margin-right: 596px;
+}
+.selectyourmovie > h2 {
+	
+	margin-top: 10px;
+}
+
 .nstrailers {
 	text-align: center;
 }
@@ -148,4 +164,89 @@ nav > ul > li:hover > ul {
 	margin-left: 0px;
 	margin-right: 800px;
 	width: 25%;
+}
+
+.mifselect {
+	position: absolute;
+	transform: scale(0.5,0.5);
+	margin-left: -290px;
+	margin-top: -150px;
+}
+
+.antwaspselect {
+	position: absolute;
+	transform: scale(0.5,0.5);
+	margin-left: -290px;
+	margin-top: 400px;
+}
+
+.eq2select {
+	position: absolute;
+	transform: scale(0.5,0.5);
+	margin-left: -290px;
+	margin-top: 950px;
+}
+
+.movieinfobutton1 {
+	position: absolute;
+	transform: scale(0.5,0.5);
+	margin-top: 401px;
+	margin-left: 121px;
+	opacity: 0;
+}
+
+.movieinfobutton2 {
+	position: absolute;
+	transform: scale(0.5,0.5);
+	margin-top: 952px;
+	margin-left: 122px;
+	opacity: 0;
+}
+
+.movieinfobutton3 {
+	position: absolute;
+	transform: scale(0.5,0.5);
+	margin-top: 1502px;
+	margin-left: 121px;
+	opacity: 0;
+}
+
+.timeselectbutton1 {
+	position: absolute;
+	transform: scale(0.42,0.4);
+	margin-top: 147px;
+	margin-left: 377px;
+	opacity: 0;
+}
+
+.timeselectbutton2 {
+	position: absolute;
+	transform: scale(0.42,0.4);
+	margin-top: 147px;
+	margin-left: 493px;
+	opacity: 0;
+}
+
+.timeselectbutton3 {
+	position: absolute;
+	transform: scale(0.42,0.4);
+	margin-top: 147px;
+	margin-left: 609px;
+	opacity: 0;
+}
+
+.timeselectbutton4 {
+	position: absolute;
+	transform: scale(0.42,0.4);
+	margin-top: 147px;
+	margin-left: 725px;
+	opacity: 0;
+}
+
+.timeselectbutton5 {
+	position: absolute;
+	transform: scale(0.42,0.4);
+	margin-top: 147px;
+	margin-left: 841px;
+	opacity: 0;
 }
